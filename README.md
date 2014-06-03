@@ -5,8 +5,13 @@ A simple text editor with a built-in browser to rapidly build Bootstrap pages
 
 ![alt tag](screen1.png)
 
+Notes
+=====
+* Solution file created by Visual Studio 2013 Ultimate. Just extract the sources (/*.cs) and embed in your project if you don't happen to have VS 2013.
+
+
 TODO
-====
+=====
 
 * Replace Textbox control with a real editor control (ICSharp)
 * Add saving and loading pages
