@@ -15,6 +15,7 @@ TODO
 =====
 
 * Replace Textbox control with a real editor control (ICSharp)
+* Watch snippets.xml for changes
 * Add saving and loading pages
 * Provide a tabbed interface to switch between files
 * Allow testing on different versions of browsers (currently only embeds IE)
