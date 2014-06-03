@@ -1,0 +1,1436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippets>
+  <html>
+    <node name="Bootstrap">
+      <node name="Templates">
+
+<snip name="Bare">
+          <![CDATA[
+          
+      
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+
+  <title>Bare bones template for Bootstrap</title>
+
+  <link href="http://bootswatch.com/flatly/bootstrap.css" rel="stylesheet">
+  <link href="http://bootswatch.com/assets/css/bootswatch.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="http://bootswatch.com/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
+ ]]>
+
+
+        </snip>
+
+
+
+        <snip name="Starter">
+          <![CDATA[
+          
+      
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+
+  <title>Bare bones template for Bootstrap</title>
+
+  <link href="http://bootswatch.com/flatly/bootstrap.css" rel="stylesheet">
+  <link href="http://bootswatch.com/assets/css/bootswatch.min.css" rel="stylesheet">
+
+  <style> body{{padding-top:60px}} </style>
+</head>
+
+<body>
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-inverse-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Brand</a>
+    </div>
+    <div class="navbar-collapse collapse navbar-inverse-collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Active</a></li>
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li class="dropdown-header">Dropdown header</li>
+            <li><a href="#">Separated link</a></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left">
+        <input type="text" class="form-control col-lg-8" placeholder="Search">
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="http://bootswatch.com/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="http://imsky.github.io/holder/holder.js"></script>
+</body>
+</html>
+
+
+
+ ]]>
+
+
+        </snip>
+
+        <snip name="Blog">
+          <![CDATA[
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+
+    <title>Blog Template for Bootstrap</title>
+
+    <link href="http://bootswatch.com/flatly/bootstrap.css" rel="stylesheet">
+<link href="http://bootswatch.com/assets/css/bootswatch.min.css" rel="stylesheet">
+
+      <style> body{padding-top:60px} </style>
+
+
+  </head>
+
+  <body>
+
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="blog-nav">
+          <a class="blog-nav-item active" href="#">Home</a>
+          <a class="blog-nav-item" href="#">New features</a>
+          <a class="blog-nav-item" href="#">Press</a>
+          <a class="blog-nav-item" href="#">New hires</a>
+          <a class="blog-nav-item" href="#">About</a>
+        </nav>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="blog-header">
+        <h1 class="blog-title">The Bootstrap Blog</h1>
+        <p class="lead blog-description">The official example template of creating a blog with Bootstrap.</p>
+      </div>
+
+      <div class="row">
+
+        <div class="col-sm-8 blog-main">
+
+          <div class="blog-post">
+            <h2 class="blog-post-title">Sample blog post</h2>
+            <p class="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p>
+
+            <p>This blog post shows a few different types of content that's supported and styled with Bootstrap. Basic typography, images, and code are all supported.</p>
+            <hr>
+            <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
+            <blockquote>
+              <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            </blockquote>
+            <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+            <h2>Heading</h2>
+            <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+            <h3>Sub-heading</h3>
+            <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+            <pre><code>Example code block</code></pre>
+            <p>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
+            <h3>Sub-heading</h3>
+            <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <ul>
+              <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
+              <li>Donec id elit non mi porta gravida at eget metus.</li>
+              <li>Nulla vitae elit libero, a pharetra augue.</li>
+            </ul>
+            <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
+            <ol>
+              <li>Vestibulum id ligula porta felis euismod semper.</li>
+              <li>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</li>
+              <li>Maecenas sed diam eget risus varius blandit sit amet non magna.</li>
+            </ol>
+            <p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
+          </div><!-- /.blog-post -->
+
+          <div class="blog-post">
+            <h2 class="blog-post-title">Another blog post</h2>
+            <p class="blog-post-meta">December 23, 2013 by <a href="#">Jacob</a></p>
+
+            <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
+            <blockquote>
+              <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            </blockquote>
+            <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+            <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+          </div><!-- /.blog-post -->
+
+          <div class="blog-post">
+            <h2 class="blog-post-title">New feature</h2>
+            <p class="blog-post-meta">December 14, 2013 by <a href="#">Chris</a></p>
+
+            <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <ul>
+              <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
+              <li>Donec id elit non mi porta gravida at eget metus.</li>
+              <li>Nulla vitae elit libero, a pharetra augue.</li>
+            </ul>
+            <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+            <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
+          </div><!-- /.blog-post -->
+
+          <ul class="pager">
+            <li><a href="#">Previous</a></li>
+            <li><a href="#">Next</a></li>
+          </ul>
+
+        </div><!-- /.blog-main -->
+
+        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+          <div class="sidebar-module sidebar-module-inset">
+            <h4>About</h4>
+            <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+          </div>
+          <div class="sidebar-module">
+            <h4>Archives</h4>
+            <ol class="list-unstyled">
+              <li><a href="#">January 2014</a></li>
+              <li><a href="#">December 2013</a></li>
+              <li><a href="#">November 2013</a></li>
+              <li><a href="#">October 2013</a></li>
+              <li><a href="#">September 2013</a></li>
+              <li><a href="#">August 2013</a></li>
+              <li><a href="#">July 2013</a></li>
+              <li><a href="#">June 2013</a></li>
+              <li><a href="#">May 2013</a></li>
+              <li><a href="#">April 2013</a></li>
+              <li><a href="#">March 2013</a></li>
+              <li><a href="#">February 2013</a></li>
+            </ol>
+          </div>
+          <div class="sidebar-module">
+            <h4>Elsewhere</h4>
+            <ol class="list-unstyled">
+              <li><a href="#">GitHub</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Facebook</a></li>
+            </ol>
+          </div>
+        </div><!-- /.blog-sidebar -->
+
+      </div><!-- /.row -->
+
+    </div><!-- /.container -->
+
+    <div class="blog-footer">
+      <p>Blog template built for <a href="http://getbootstrap.com">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+      <p>
+        <a href="#">Back to top</a>
+      </p>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="http://bootswatch.com/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+  
+    
+  </body>
+</html>
+
+					 ]]>
+        </snip>
+
+        <snip name="Carousel">
+          <![CDATA[
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+
+    <title>Carousel Template for Bootstrap</title>
+
+    
+    <link href="http://bootswatch.com/flatly/bootstrap.css" rel="stylesheet">
+<link href="http://bootswatch.com/assets/css/bootswatch.min.css" rel="stylesheet">
+
+  <style> body{padding-top:60px} </style>
+
+    
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Project name</a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li class="divider"></li>
+                    <li class="dropdown-header">Nav header</li>
+                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Example headline.</h1>
+              <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Another example headline.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>One more for good measure.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div><!-- /.carousel -->
+
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-circle" data-src="holder.js/140x140" alt="Generic placeholder image">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" data-src="holder.js/140x140" alt="Generic placeholder image">
+          <h2>Heading</h2>
+          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" data-src="holder.js/140x140" alt="Generic placeholder image">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+
+    </div><!-- /.container -->
+
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="http://bootswatch.com/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+  
+  </body>
+</html>
+
+					 ]]>
+        </snip>
+
+        <snip name="Dashboard">
+          <![CDATA[
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+
+    <title>Dashboard Template for Bootstrap</title>
+
+    
+    <link href="http://bootswatch.com/flatly/bootstrap.css" rel="stylesheet">
+<link href="http://bootswatch.com/assets/css/bootswatch.min.css" rel="stylesheet">
+
+    
+
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Help</a></li>
+          </ul>
+          <form class="navbar-form navbar-right">
+            <input type="text" class="form-control" placeholder="Search...">
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+          <ul class="nav nav-sidebar">
+            <li class="active"><a href="#">Overview</a></li>
+            <li><a href="#">Reports</a></li>
+            <li><a href="#">Analytics</a></li>
+            <li><a href="#">Export</a></li>
+          </ul>
+          <ul class="nav nav-sidebar">
+            <li><a href="">Nav item</a></li>
+            <li><a href="">Nav item again</a></li>
+            <li><a href="">One more nav</a></li>
+            <li><a href="">Another nav item</a></li>
+            <li><a href="">More navigation</a></li>
+          </ul>
+          <ul class="nav nav-sidebar">
+            <li><a href="">Nav item again</a></li>
+            <li><a href="">One more nav</a></li>
+            <li><a href="">Another nav item</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+          <h1 class="page-header">Dashboard</h1>
+
+          <div class="row placeholders">
+            <div class="col-xs-6 col-sm-3 placeholder">
+              <img data-src="holder.js/200x200/auto/sky" class="img-responsive" alt="Generic placeholder thumbnail">
+              <h4>Label</h4>
+              <span class="text-muted">Something else</span>
+            </div>
+            <div class="col-xs-6 col-sm-3 placeholder">
+              <img data-src="holder.js/200x200/auto/vine" class="img-responsive" alt="Generic placeholder thumbnail">
+              <h4>Label</h4>
+              <span class="text-muted">Something else</span>
+            </div>
+            <div class="col-xs-6 col-sm-3 placeholder">
+              <img data-src="holder.js/200x200/auto/sky" class="img-responsive" alt="Generic placeholder thumbnail">
+              <h4>Label</h4>
+              <span class="text-muted">Something else</span>
+            </div>
+            <div class="col-xs-6 col-sm-3 placeholder">
+              <img data-src="holder.js/200x200/auto/vine" class="img-responsive" alt="Generic placeholder thumbnail">
+              <h4>Label</h4>
+              <span class="text-muted">Something else</span>
+            </div>
+          </div>
+
+          <h2 class="sub-header">Section title</h2>
+          <div class="table-responsive">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Header</th>
+                  <th>Header</th>
+                  <th>Header</th>
+                  <th>Header</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1,001</td>
+                  <td>Lorem</td>
+                  <td>ipsum</td>
+                  <td>dolor</td>
+                  <td>sit</td>
+                </tr>
+                <tr>
+                  <td>1,002</td>
+                  <td>amet</td>
+                  <td>consectetur</td>
+                  <td>adipiscing</td>
+                  <td>elit</td>
+                </tr>
+                <tr>
+                  <td>1,003</td>
+                  <td>Integer</td>
+                  <td>nec</td>
+                  <td>odio</td>
+                  <td>Praesent</td>
+                </tr>
+                <tr>
+                  <td>1,003</td>
+                  <td>libero</td>
+                  <td>Sed</td>
+                  <td>cursus</td>
+                  <td>ante</td>
+                </tr>
+                <tr>
+                  <td>1,004</td>
+                  <td>dapibus</td>
+                  <td>diam</td>
+                  <td>Sed</td>
+                  <td>nisi</td>
+                </tr>
+                <tr>
+                  <td>1,005</td>
+                  <td>Nulla</td>
+                  <td>quis</td>
+                  <td>sem</td>
+                  <td>at</td>
+                </tr>
+                <tr>
+                  <td>1,006</td>
+                  <td>nibh</td>
+                  <td>elementum</td>
+                  <td>imperdiet</td>
+                  <td>Duis</td>
+                </tr>
+                <tr>
+                  <td>1,007</td>
+                  <td>sagittis</td>
+                  <td>ipsum</td>
+                  <td>Praesent</td>
+                  <td>mauris</td>
+                </tr>
+                <tr>
+                  <td>1,008</td>
+                  <td>Fusce</td>
+                  <td>nec</td>
+                  <td>tellus</td>
+                  <td>sed</td>
+                </tr>
+                <tr>
+                  <td>1,009</td>
+                  <td>augue</td>
+                  <td>semper</td>
+                  <td>porta</td>
+                  <td>Mauris</td>
+                </tr>
+                <tr>
+                  <td>1,010</td>
+                  <td>massa</td>
+                  <td>Vestibulum</td>
+                  <td>lacinia</td>
+                  <td>arcu</td>
+                </tr>
+                <tr>
+                  <td>1,011</td>
+                  <td>eget</td>
+                  <td>nulla</td>
+                  <td>Class</td>
+                  <td>aptent</td>
+                </tr>
+                <tr>
+                  <td>1,012</td>
+                  <td>taciti</td>
+                  <td>sociosqu</td>
+                  <td>ad</td>
+                  <td>litora</td>
+                </tr>
+                <tr>
+                  <td>1,013</td>
+                  <td>torquent</td>
+                  <td>per</td>
+                  <td>conubia</td>
+                  <td>nostra</td>
+                </tr>
+                <tr>
+                  <td>1,014</td>
+                  <td>per</td>
+                  <td>inceptos</td>
+                  <td>himenaeos</td>
+                  <td>Curabitur</td>
+                </tr>
+                <tr>
+                  <td>1,015</td>
+                  <td>sodales</td>
+                  <td>ligula</td>
+                  <td>in</td>
+                  <td>libero</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="http://bootswatch.com/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+  
+  </body>
+</html>
+
+					 ]]>
+        </snip>
+
+
+        <snip name="Fixed Navbar">
+          <![CDATA[
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+
+    <title>Fixed Top Navbar Example for Bootstrap</title>
+
+    
+    <link href="http://bootswatch.com/flatly/bootstrap.css" rel="stylesheet">
+<link href="http://bootswatch.com/assets/css/bootswatch.min.css" rel="stylesheet">
+
+    
+
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="../navbar/">Default</a></li>
+            <li><a href="../navbar-static-top/">Static top</a></li>
+            <li class="active"><a href="./">Fixed top</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="container">
+
+      <!-- Main component for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <h1>Navbar example</h1>
+        <p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
+        <p>To see the difference between static and fixed top navbars, just scroll.</p>
+        <p>
+          <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a>
+        </p>
+      </div>
+
+    </div> <!-- /container -->
+
+
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="http://bootswatch.com/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+  
+
+  </body>
+</html>
+
+ 					]]>
+        </snip>
+
+        <snip name="Signin">
+          <![CDATA[
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+
+    <title>Signin Template for Bootstrap</title>
+
+    
+    <link href="http://bootswatch.com/flatly/bootstrap.css" rel="stylesheet">
+<link href="http://bootswatch.com/assets/css/bootswatch.min.css" rel="stylesheet">
+
+    
+
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <form class="form-signin" role="form">
+        <h2 class="form-signin-heading">Please sign in</h2>
+        <input type="email" class="form-control" placeholder="Email address" required autofocus>
+        <input type="password" class="form-control" placeholder="Password" required>
+        <label class="checkbox">
+          <input type="checkbox" value="remember-me"> Remember me
+        </label>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+      </form>
+
+    </div> <!-- /container -->
+
+
+    
+    <!-- Placed at the end of the document so the pages load faster -->
+  </body>
+</html>
+
+					]]>
+        </snip>
+
+
+      </node>
+      <node name="Components">
+        <snip name="Button group">
+          <![CDATA[
+<div class="btn-group">
+	<button type="button" class="btn btn-default">
+    <span class="glyphicon glyphicon-align-left"></span>
+  </button>
+	<button type="button" class="btn btn-default">
+    <span class="glyphicon glyphicon-align-center"></span>
+  </button>
+	<button type="button" class="btn btn-default">
+    <span class="glyphicon glyphicon-align-right"></span>
+  </button>
+	<button type="button" class="btn btn-default">
+    <span class="glyphicon glyphicon-align-justify"></span>
+  </button>
+</div>
+          ]]>
+        </snip>
+
+        <snip name="Button group with dropdown">
+          <![CDATA[
+<div class="btn-group">
+      <button type="button" class="btn btn-default">1</button>
+      <button type="button" class="btn btn-default">2</button>
+
+      <div class="btn-group">
+        <button id="btnGroupDrop1" type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+          Dropdown
+          <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="btnGroupDrop1">
+          <li><a href="#">Dropdown link</a></li>
+          <li><a href="#">Dropdown link</a></li>
+        </ul>
+      </div>
+    </div>
+              ]]>
+        </snip>
+
+        <snip name="Single button dropdown">
+          <![CDATA[
+<div class="btn-group">
+      <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Default <span class="caret"></span></button>
+      <ul class="dropdown-menu" role="menu">
+        <li><a href="#">Action</a></li>
+        <li><a href="#">Another action</a></li>
+        <li><a href="#">Something else here</a></li>
+        <li class="divider"></li>
+        <li><a href="#">Separated link</a></li>
+      </ul>
+    </div>
+              ]]>
+        </snip>
+
+        <snip name="Split button dropdown">
+          <![CDATA[
+<div class="btn-group">
+      <button type="button" class="btn btn-default">Default</button>
+      <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+        <span class="caret"></span>
+        <span class="sr-only">Toggle Dropdown</span>
+      </button>
+      <ul class="dropdown-menu" role="menu">
+        <li><a href="#">Action</a></li>
+        <li><a href="#">Another action</a></li>
+        <li><a href="#">Something else here</a></li>
+        <li class="divider"></li>
+        <li><a href="#">Separated link</a></li>
+      </ul>
+    </div>
+                  ]]>
+        </snip>
+
+        <snip name="Tabs">
+          <![CDATA[
+<ul class="nav nav-tabs">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Profile</a></li>
+      <li><a href="#">Messages</a></li>
+    </ul>
+]]>
+        </snip>
+
+        <snip name="Justified tabs">
+          <![CDATA[
+<ul class="nav nav-tabs nav-justified">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Profile</a></li>
+      <li><a href="#">Messages</a></li>
+    </ul>
+]]>
+        </snip>
+
+        <snip name="Tabs with a dropdown">
+          <![CDATA[
+<ul class="nav nav-tabs">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Help</a></li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+          Dropdown <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu" role="menu">
+          <li><a href="#">Action</a></li>
+          <li><a href="#">Another action</a></li>
+          <li><a href="#">Something else here</a></li>
+          <li class="divider"></li>
+          <li><a href="#">Separated link</a></li>
+        </ul>
+      </li>
+    </ul>
+]]>
+        </snip>
+
+        <snip name="Button dropdown">
+          <![CDATA[
+<div class="btn-group">            
+	<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Default <span class="caret"></span></button>
+	<ul class="dropdown-menu" role="menu">
+		<li><a href="#">Action</a></li>
+		<li><a href="#">Another action</a></li>
+		<li><a href="#">Something else here</a></li>
+		<li class="divider"></li>
+		<li><a href="#">Separated link</a></li>
+	</ul>
+</div>
+            ]]>
+        </snip>
+
+
+        <snip name="Jumbotron">
+          <![CDATA[
+<div class="jumbotron">
+      <h1>Hello, world!</h1>
+      <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+      <p><a class="btn btn-primary btn-lg" role="button">Learn more</a></p>
+    </div>
+            ]]>
+        </snip>
+
+        <snip name="Well">
+          <![CDATA[
+<div class="well">
+      Look, I'm in a well!
+    </div>
+                ]]>
+        </snip>
+
+        <snip name="Container">
+          <![CDATA[
+<div class="container">
+      {0}
+    </div><!--container-->
+                ]]>
+        </snip>
+
+
+        <snip name="9 Column">
+          <![CDATA[
+<div class="col-md-9">
+      {0}
+    </div><!--col-md-9-->
+                ]]>
+        </snip>
+
+        <snip name="3 Column">
+          <![CDATA[
+<div class="col-md-3">
+      {0}
+    </div><!--col-md-3-->
+                ]]>
+        </snip>
+
+        <node name="Icons">
+          <snip name="asterisk"><![CDATA[<i class="glyphicon glyphicon-asterisk"></i>]]></snip>
+          <snip name="plus"><![CDATA[<i class="glyphicon glyphicon-plus"></i>]]></snip>
+          <snip name="euro"><![CDATA[<i class="glyphicon glyphicon-euro"></i>]]></snip>
+          <snip name="minus"><![CDATA[<i class="glyphicon glyphicon-minus"></i>]]></snip>
+          <snip name="cloud"><![CDATA[<i class="glyphicon glyphicon-cloud"></i>]]></snip>
+          <snip name="envelope"><![CDATA[<i class="glyphicon glyphicon-envelope"></i>]]></snip>
+          <snip name="pencil"><![CDATA[<i class="glyphicon glyphicon-pencil"></i>]]></snip>
+          <snip name="glass"><![CDATA[<i class="glyphicon glyphicon-glass"></i>]]></snip>
+          <snip name="music"><![CDATA[<i class="glyphicon glyphicon-music"></i>]]></snip>
+          <snip name="search"><![CDATA[<i class="glyphicon glyphicon-search"></i>]]></snip>
+          <snip name="heart"><![CDATA[<i class="glyphicon glyphicon-heart"></i>]]></snip>
+          <snip name="star"><![CDATA[<i class="glyphicon glyphicon-star"></i>]]></snip>
+          <snip name="star-empty"><![CDATA[<i class="glyphicon glyphicon-star-empty"></i>]]></snip>
+          <snip name="user"><![CDATA[<i class="glyphicon glyphicon-user"></i>]]></snip>
+          <snip name="film"><![CDATA[<i class="glyphicon glyphicon-film"></i>]]></snip>
+          <snip name="th-large"><![CDATA[<i class="glyphicon glyphicon-th-large"></i>]]></snip>
+          <snip name="th"><![CDATA[<i class="glyphicon glyphicon-th"></i>]]></snip>
+          <snip name="th-list"><![CDATA[<i class="glyphicon glyphicon-th-list"></i>]]></snip>
+          <snip name="ok"><![CDATA[<i class="glyphicon glyphicon-ok"></i>]]></snip>
+          <snip name="remove"><![CDATA[<i class="glyphicon glyphicon-remove"></i>]]></snip>
+          <snip name="zoom-in"><![CDATA[<i class="glyphicon glyphicon-zoom-in"></i>]]></snip>
+          <snip name="zoom-out"><![CDATA[<i class="glyphicon glyphicon-zoom-out"></i>]]></snip>
+          <snip name="off"><![CDATA[<i class="glyphicon glyphicon-off"></i>]]></snip>
+          <snip name="signal"><![CDATA[<i class="glyphicon glyphicon-signal"></i>]]></snip>
+          <snip name="cog"><![CDATA[<i class="glyphicon glyphicon-cog"></i>]]></snip>
+          <snip name="trash"><![CDATA[<i class="glyphicon glyphicon-trash"></i>]]></snip>
+          <snip name="home"><![CDATA[<i class="glyphicon glyphicon-home"></i>]]></snip>
+          <snip name="file"><![CDATA[<i class="glyphicon glyphicon-file"></i>]]></snip>
+          <snip name="time"><![CDATA[<i class="glyphicon glyphicon-time"></i>]]></snip>
+          <snip name="road"><![CDATA[<i class="glyphicon glyphicon-road"></i>]]></snip>
+          <snip name="download-alt"><![CDATA[<i class="glyphicon glyphicon-download-alt"></i>]]></snip>
+          <snip name="download"><![CDATA[<i class="glyphicon glyphicon-download"></i>]]></snip>
+          <snip name="upload"><![CDATA[<i class="glyphicon glyphicon-upload"></i>]]></snip>
+          <snip name="inbox"><![CDATA[<i class="glyphicon glyphicon-inbox"></i>]]></snip>
+          <snip name="play-circle"><![CDATA[<i class="glyphicon glyphicon-play-circle"></i>]]></snip>
+          <snip name="repeat"><![CDATA[<i class="glyphicon glyphicon-repeat"></i>]]></snip>
+          <snip name="refresh"><![CDATA[<i class="glyphicon glyphicon-refresh"></i>]]></snip>
+          <snip name="list-alt"><![CDATA[<i class="glyphicon glyphicon-list-alt"></i>]]></snip>
+          <snip name="lock"><![CDATA[<i class="glyphicon glyphicon-lock"></i>]]></snip>
+          <snip name="flag"><![CDATA[<i class="glyphicon glyphicon-flag"></i>]]></snip>
+          <snip name="headphones"><![CDATA[<i class="glyphicon glyphicon-headphones"></i>]]></snip>
+          <snip name="volume-off"><![CDATA[<i class="glyphicon glyphicon-volume-off"></i>]]></snip>
+          <snip name="volume-down"><![CDATA[<i class="glyphicon glyphicon-volume-down"></i>]]></snip>
+          <snip name="volume-up"><![CDATA[<i class="glyphicon glyphicon-volume-up"></i>]]></snip>
+          <snip name="qrcode"><![CDATA[<i class="glyphicon glyphicon-qrcode"></i>]]></snip>
+          <snip name="barcode"><![CDATA[<i class="glyphicon glyphicon-barcode"></i>]]></snip>
+          <snip name="tag"><![CDATA[<i class="glyphicon glyphicon-tag"></i>]]></snip>
+          <snip name="tags"><![CDATA[<i class="glyphicon glyphicon-tags"></i>]]></snip>
+          <snip name="book"><![CDATA[<i class="glyphicon glyphicon-book"></i>]]></snip>
+          <snip name="bookmark"><![CDATA[<i class="glyphicon glyphicon-bookmark"></i>]]></snip>
+          <snip name="print"><![CDATA[<i class="glyphicon glyphicon-print"></i>]]></snip>
+          <snip name="camera"><![CDATA[<i class="glyphicon glyphicon-camera"></i>]]></snip>
+          <snip name="font"><![CDATA[<i class="glyphicon glyphicon-font"></i>]]></snip>
+          <snip name="bold"><![CDATA[<i class="glyphicon glyphicon-bold"></i>]]></snip>
+          <snip name="italic"><![CDATA[<i class="glyphicon glyphicon-italic"></i>]]></snip>
+          <snip name="text-height"><![CDATA[<i class="glyphicon glyphicon-text-height"></i>]]></snip>
+          <snip name="text-width"><![CDATA[<i class="glyphicon glyphicon-text-width"></i>]]></snip>
+          <snip name="align-left"><![CDATA[<i class="glyphicon glyphicon-align-left"></i>]]></snip>
+          <snip name="align-center"><![CDATA[<i class="glyphicon glyphicon-align-center"></i>]]></snip>
+          <snip name="align-right"><![CDATA[<i class="glyphicon glyphicon-align-right"></i>]]></snip>
+          <snip name="align-justify"><![CDATA[<i class="glyphicon glyphicon-align-justify"></i>]]></snip>
+          <snip name="list"><![CDATA[<i class="glyphicon glyphicon-list"></i>]]></snip>
+          <snip name="indent-left"><![CDATA[<i class="glyphicon glyphicon-indent-left"></i>]]></snip>
+          <snip name="indent-right"><![CDATA[<i class="glyphicon glyphicon-indent-right"></i>]]></snip>
+          <snip name="facetime-video"><![CDATA[<i class="glyphicon glyphicon-facetime-video"></i>]]></snip>
+          <snip name="picture"><![CDATA[<i class="glyphicon glyphicon-picture"></i>]]></snip>
+          <snip name="map-marker"><![CDATA[<i class="glyphicon glyphicon-map-marker"></i>]]></snip>
+          <snip name="adjust"><![CDATA[<i class="glyphicon glyphicon-adjust"></i>]]></snip>
+          <snip name="tint"><![CDATA[<i class="glyphicon glyphicon-tint"></i>]]></snip>
+          <snip name="edit"><![CDATA[<i class="glyphicon glyphicon-edit"></i>]]></snip>
+          <snip name="share"><![CDATA[<i class="glyphicon glyphicon-share"></i>]]></snip>
+          <snip name="check"><![CDATA[<i class="glyphicon glyphicon-check"></i>]]></snip>
+          <snip name="move"><![CDATA[<i class="glyphicon glyphicon-move"></i>]]></snip>
+          <snip name="step-backward"><![CDATA[<i class="glyphicon glyphicon-step-backward"></i>]]></snip>
+          <snip name="fast-backward"><![CDATA[<i class="glyphicon glyphicon-fast-backward"></i>]]></snip>
+          <snip name="backward"><![CDATA[<i class="glyphicon glyphicon-backward"></i>]]></snip>
+          <snip name="play"><![CDATA[<i class="glyphicon glyphicon-play"></i>]]></snip>
+          <snip name="pause"><![CDATA[<i class="glyphicon glyphicon-pause"></i>]]></snip>
+          <snip name="stop"><![CDATA[<i class="glyphicon glyphicon-stop"></i>]]></snip>
+          <snip name="forward"><![CDATA[<i class="glyphicon glyphicon-forward"></i>]]></snip>
+          <snip name="fast-forward"><![CDATA[<i class="glyphicon glyphicon-fast-forward"></i>]]></snip>
+          <snip name="step-forward"><![CDATA[<i class="glyphicon glyphicon-step-forward"></i>]]></snip>
+          <snip name="eject"><![CDATA[<i class="glyphicon glyphicon-eject"></i>]]></snip>
+          <snip name="chevron-left"><![CDATA[<i class="glyphicon glyphicon-chevron-left"></i>]]></snip>
+          <snip name="chevron-right"><![CDATA[<i class="glyphicon glyphicon-chevron-right"></i>]]></snip>
+          <snip name="plus-sign"><![CDATA[<i class="glyphicon glyphicon-plus-sign"></i>]]></snip>
+          <snip name="minus-sign"><![CDATA[<i class="glyphicon glyphicon-minus-sign"></i>]]></snip>
+          <snip name="remove-sign"><![CDATA[<i class="glyphicon glyphicon-remove-sign"></i>]]></snip>
+          <snip name="ok-sign"><![CDATA[<i class="glyphicon glyphicon-ok-sign"></i>]]></snip>
+          <snip name="question-sign"><![CDATA[<i class="glyphicon glyphicon-question-sign"></i>]]></snip>
+          <snip name="info-sign"><![CDATA[<i class="glyphicon glyphicon-info-sign"></i>]]></snip>
+          <snip name="screenshot"><![CDATA[<i class="glyphicon glyphicon-screenshot"></i>]]></snip>
+          <snip name="remove-circle"><![CDATA[<i class="glyphicon glyphicon-remove-circle"></i>]]></snip>
+          <snip name="ok-circle"><![CDATA[<i class="glyphicon glyphicon-ok-circle"></i>]]></snip>
+          <snip name="ban-circle"><![CDATA[<i class="glyphicon glyphicon-ban-circle"></i>]]></snip>
+          <snip name="arrow-left"><![CDATA[<i class="glyphicon glyphicon-arrow-left"></i>]]></snip>
+          <snip name="arrow-right"><![CDATA[<i class="glyphicon glyphicon-arrow-right"></i>]]></snip>
+          <snip name="arrow-up"><![CDATA[<i class="glyphicon glyphicon-arrow-up"></i>]]></snip>
+          <snip name="arrow-down"><![CDATA[<i class="glyphicon glyphicon-arrow-down"></i>]]></snip>
+          <snip name="share-alt"><![CDATA[<i class="glyphicon glyphicon-share-alt"></i>]]></snip>
+          <snip name="resize-full"><![CDATA[<i class="glyphicon glyphicon-resize-full"></i>]]></snip>
+          <snip name="resize-small"><![CDATA[<i class="glyphicon glyphicon-resize-small"></i>]]></snip>
+          <snip name="exclamation-sign"><![CDATA[<i class="glyphicon glyphicon-exclamation-sign"></i>]]></snip>
+          <snip name="gift"><![CDATA[<i class="glyphicon glyphicon-gift"></i>]]></snip>
+          <snip name="leaf"><![CDATA[<i class="glyphicon glyphicon-leaf"></i>]]></snip>
+          <snip name="fire"><![CDATA[<i class="glyphicon glyphicon-fire"></i>]]></snip>
+          <snip name="eye-open"><![CDATA[<i class="glyphicon glyphicon-eye-open"></i>]]></snip>
+          <snip name="eye-close"><![CDATA[<i class="glyphicon glyphicon-eye-close"></i>]]></snip>
+          <snip name="warning-sign"><![CDATA[<i class="glyphicon glyphicon-warning-sign"></i>]]></snip>
+          <snip name="plane"><![CDATA[<i class="glyphicon glyphicon-plane"></i>]]></snip>
+          <snip name="calendar"><![CDATA[<i class="glyphicon glyphicon-calendar"></i>]]></snip>
+          <snip name="random"><![CDATA[<i class="glyphicon glyphicon-random"></i>]]></snip>
+          <snip name="comment"><![CDATA[<i class="glyphicon glyphicon-comment"></i>]]></snip>
+          <snip name="magnet"><![CDATA[<i class="glyphicon glyphicon-magnet"></i>]]></snip>
+          <snip name="chevron-up"><![CDATA[<i class="glyphicon glyphicon-chevron-up"></i>]]></snip>
+          <snip name="chevron-down"><![CDATA[<i class="glyphicon glyphicon-chevron-down"></i>]]></snip>
+          <snip name="retweet"><![CDATA[<i class="glyphicon glyphicon-retweet"></i>]]></snip>
+          <snip name="shopping-cart"><![CDATA[<i class="glyphicon glyphicon-shopping-cart"></i>]]></snip>
+          <snip name="folder-close"><![CDATA[<i class="glyphicon glyphicon-folder-close"></i>]]></snip>
+          <snip name="folder-open"><![CDATA[<i class="glyphicon glyphicon-folder-open"></i>]]></snip>
+          <snip name="resize-vertical"><![CDATA[<i class="glyphicon glyphicon-resize-vertical"></i>]]></snip>
+          <snip name="resize-horizontal"><![CDATA[<i class="glyphicon glyphicon-resize-horizontal"></i>]]></snip>
+          <snip name="hdd"><![CDATA[<i class="glyphicon glyphicon-hdd"></i>]]></snip>
+          <snip name="bullhorn"><![CDATA[<i class="glyphicon glyphicon-bullhorn"></i>]]></snip>
+          <snip name="bell"><![CDATA[<i class="glyphicon glyphicon-bell"></i>]]></snip>
+          <snip name="certificate"><![CDATA[<i class="glyphicon glyphicon-certificate"></i>]]></snip>
+          <snip name="thumbs-up"><![CDATA[<i class="glyphicon glyphicon-thumbs-up"></i>]]></snip>
+          <snip name="thumbs-down"><![CDATA[<i class="glyphicon glyphicon-thumbs-down"></i>]]></snip>
+          <snip name="hand-right"><![CDATA[<i class="glyphicon glyphicon-hand-right"></i>]]></snip>
+          <snip name="hand-left"><![CDATA[<i class="glyphicon glyphicon-hand-left"></i>]]></snip>
+          <snip name="hand-up"><![CDATA[<i class="glyphicon glyphicon-hand-up"></i>]]></snip>
+          <snip name="hand-down"><![CDATA[<i class="glyphicon glyphicon-hand-down"></i>]]></snip>
+          <snip name="circle-arrow-right"><![CDATA[<i class="glyphicon glyphicon-circle-arrow-right"></i>]]></snip>
+          <snip name="circle-arrow-left"><![CDATA[<i class="glyphicon glyphicon-circle-arrow-left"></i>]]></snip>
+          <snip name="circle-arrow-up"><![CDATA[<i class="glyphicon glyphicon-circle-arrow-up"></i>]]></snip>
+          <snip name="circle-arrow-down"><![CDATA[<i class="glyphicon glyphicon-circle-arrow-down"></i>]]></snip>
+          <snip name="globe"><![CDATA[<i class="glyphicon glyphicon-globe"></i>]]></snip>
+          <snip name="wrench"><![CDATA[<i class="glyphicon glyphicon-wrench"></i>]]></snip>
+          <snip name="tasks"><![CDATA[<i class="glyphicon glyphicon-tasks"></i>]]></snip>
+          <snip name="filter"><![CDATA[<i class="glyphicon glyphicon-filter"></i>]]></snip>
+          <snip name="briefcase"><![CDATA[<i class="glyphicon glyphicon-briefcase"></i>]]></snip>
+          <snip name="fullscreen"><![CDATA[<i class="glyphicon glyphicon-fullscreen"></i>]]></snip>
+          <snip name="dashboard"><![CDATA[<i class="glyphicon glyphicon-dashboard"></i>]]></snip>
+          <snip name="paperclip"><![CDATA[<i class="glyphicon glyphicon-paperclip"></i>]]></snip>
+          <snip name="heart-empty"><![CDATA[<i class="glyphicon glyphicon-heart-empty"></i>]]></snip>
+          <snip name="link"><![CDATA[<i class="glyphicon glyphicon-link"></i>]]></snip>
+          <snip name="phone"><![CDATA[<i class="glyphicon glyphicon-phone"></i>]]></snip>
+          <snip name="pushpin"><![CDATA[<i class="glyphicon glyphicon-pushpin"></i>]]></snip>
+          <snip name="usd"><![CDATA[<i class="glyphicon glyphicon-usd"></i>]]></snip>
+          <snip name="gbp"><![CDATA[<i class="glyphicon glyphicon-gbp"></i>]]></snip>
+          <snip name="sort"><![CDATA[<i class="glyphicon glyphicon-sort"></i>]]></snip>
+          <snip name="sort-by-alphabet"><![CDATA[<i class="glyphicon glyphicon-sort-by-alphabet"></i>]]></snip>
+          <snip name="sort-by-alphabet-alt"><![CDATA[<i class="glyphicon glyphicon-sort-by-alphabet-alt"></i>]]></snip>
+          <snip name="sort-by-order"><![CDATA[<i class="glyphicon glyphicon-sort-by-order"></i>]]></snip>
+          <snip name="sort-by-order-alt"><![CDATA[<i class="glyphicon glyphicon-sort-by-order-alt"></i>]]></snip>
+          <snip name="sort-by-attributes"><![CDATA[<i class="glyphicon glyphicon-sort-by-attributes"></i>]]></snip>
+          <snip name="sort-by-attributes-alt"><![CDATA[<i class="glyphicon glyphicon-sort-by-attributes-alt"></i>]]></snip>
+          <snip name="unchecked"><![CDATA[<i class="glyphicon glyphicon-unchecked"></i>]]></snip>
+          <snip name="expand"><![CDATA[<i class="glyphicon glyphicon-expand"></i>]]></snip>
+          <snip name="collapse-down"><![CDATA[<i class="glyphicon glyphicon-collapse-down"></i>]]></snip>
+          <snip name="collapse-up"><![CDATA[<i class="glyphicon glyphicon-collapse-up"></i>]]></snip>
+          <snip name="log-in"><![CDATA[<i class="glyphicon glyphicon-log-in"></i>]]></snip>
+          <snip name="flash"><![CDATA[<i class="glyphicon glyphicon-flash"></i>]]></snip>
+          <snip name="log-out"><![CDATA[<i class="glyphicon glyphicon-log-out"></i>]]></snip>
+          <snip name="new-window"><![CDATA[<i class="glyphicon glyphicon-new-window"></i>]]></snip>
+          <snip name="record"><![CDATA[<i class="glyphicon glyphicon-record"></i>]]></snip>
+          <snip name="save"><![CDATA[<i class="glyphicon glyphicon-save"></i>]]></snip>
+          <snip name="open"><![CDATA[<i class="glyphicon glyphicon-open"></i>]]></snip>
+          <snip name="saved"><![CDATA[<i class="glyphicon glyphicon-saved"></i>]]></snip>
+          <snip name="import"><![CDATA[<i class="glyphicon glyphicon-import"></i>]]></snip>
+          <snip name="export"><![CDATA[<i class="glyphicon glyphicon-export"></i>]]></snip>
+          <snip name="send"><![CDATA[<i class="glyphicon glyphicon-send"></i>]]></snip>
+          <snip name="floppy-disk"><![CDATA[<i class="glyphicon glyphicon-floppy-disk"></i>]]></snip>
+          <snip name="floppy-saved"><![CDATA[<i class="glyphicon glyphicon-floppy-saved"></i>]]></snip>
+          <snip name="floppy-remove"><![CDATA[<i class="glyphicon glyphicon-floppy-remove"></i>]]></snip>
+          <snip name="floppy-save"><![CDATA[<i class="glyphicon glyphicon-floppy-save"></i>]]></snip>
+          <snip name="floppy-open"><![CDATA[<i class="glyphicon glyphicon-floppy-open"></i>]]></snip>
+          <snip name="credit-card"><![CDATA[<i class="glyphicon glyphicon-credit-card"></i>]]></snip>
+          <snip name="transfer"><![CDATA[<i class="glyphicon glyphicon-transfer"></i>]]></snip>
+          <snip name="cutlery"><![CDATA[<i class="glyphicon glyphicon-cutlery"></i>]]></snip>
+          <snip name="header"><![CDATA[<i class="glyphicon glyphicon-header"></i>]]></snip>
+          <snip name="compressed"><![CDATA[<i class="glyphicon glyphicon-compressed"></i>]]></snip>
+          <snip name="earphone"><![CDATA[<i class="glyphicon glyphicon-earphone"></i>]]></snip>
+          <snip name="phone-alt"><![CDATA[<i class="glyphicon glyphicon-phone-alt"></i>]]></snip>
+          <snip name="tower"><![CDATA[<i class="glyphicon glyphicon-tower"></i>]]></snip>
+          <snip name="stats"><![CDATA[<i class="glyphicon glyphicon-stats"></i>]]></snip>
+          <snip name="sd-video"><![CDATA[<i class="glyphicon glyphicon-sd-video"></i>]]></snip>
+          <snip name="hd-video"><![CDATA[<i class="glyphicon glyphicon-hd-video"></i>]]></snip>
+          <snip name="subtitles"><![CDATA[<i class="glyphicon glyphicon-subtitles"></i>]]></snip>
+          <snip name="sound-stereo"><![CDATA[<i class="glyphicon glyphicon-sound-stereo"></i>]]></snip>
+          <snip name="sound-dolby"><![CDATA[<i class="glyphicon glyphicon-sound-dolby"></i>]]></snip>
+          <snip name="sound-5-1"><![CDATA[<i class="glyphicon glyphicon-sound-5-1"></i>]]></snip>
+          <snip name="sound-6-1"><![CDATA[<i class="glyphicon glyphicon-sound-6-1"></i>]]></snip>
+          <snip name="sound-7-1"><![CDATA[<i class="glyphicon glyphicon-sound-7-1"></i>]]></snip>
+          <snip name="copyright-mark"><![CDATA[<i class="glyphicon glyphicon-copyright-mark"></i>]]></snip>
+          <snip name="registration-mark"><![CDATA[<i class="glyphicon glyphicon-registration-mark"></i>]]></snip>
+          <snip name="cloud-download"><![CDATA[<i class="glyphicon glyphicon-cloud-download"></i>]]></snip>
+          <snip name="cloud-upload"><![CDATA[<i class="glyphicon glyphicon-cloud-upload"></i>]]></snip>
+          <snip name="tree-conifer"><![CDATA[<i class="glyphicon glyphicon-tree-conifer"></i>]]></snip>
+          <snip name="tree-deciduous"><![CDATA[<i class="glyphicon glyphicon-tree-deciduous"></i>]]></snip>
+
+        </node>
+
+
+        <snip name="Media">
+          <![CDATA[
+    
+<div class="media">
+  <a class="pull-left" href="#">
+    <img class="media-object" src="holder.js/64x64"/>
+  </a>
+  <div class="media-body">
+    <h4 class="media-heading">Media heading</h4>
+    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+  </div>
+</div>
+
+<div class="media">
+  <a class="pull-left" href="#">
+    <img class="media-object" src="holder.js/64x64"/>
+  </a>
+  <div class="media-body">
+    <h4 class="media-heading">Media heading</h4>
+    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+  </div>
+</div>
+
+<div class="media">
+  <a class="pull-left" href="#">
+    <img class="media-object" src="holder.js/64x64"/>
+  </a>
+  <div class="media-body">
+    <h4 class="media-heading">Media heading</h4>
+    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+  </div>
+</div>
+
+<div class="media">
+  <a class="pull-left" href="#">
+    <img class="media-object" src="holder.js/64x64"/>
+  </a>
+  <div class="media-body">
+    <h4 class="media-heading">Media heading</h4>
+    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+  </div>
+</div>
+
+<div class="media">
+  <a class="pull-left" href="#">
+    <img class="media-object" src="holder.js/64x64"/>
+  </a>
+  <div class="media-body">
+    <h4 class="media-heading">Media heading</h4>
+    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+  </div>
+</div>
+
+
+
+            ]]>
+        </snip>
+
+        <snip name="Call to action">
+          <![CDATA[
+          <a href="#" class="btn btn-lg btn-primary">Call to action</a>
+            ]]>
+        </snip>
+
+        <snip name="Metadata">
+          <![CDATA[
+          <div class="meta">Some metadata goes here</div>
+            ]]>
+        </snip>
+
+        <snip name="Box">
+          <![CDATA[
+          <div class="box">
+          	<h4>Box title</h4>
+
+          </div>
+            ]]>
+        </snip>
+
+        <snip name="Hello">
+          <![CDATA[
+          <div class="box hello">
+            <h4>About this app</h4>
+            <p>lorem ipsum doler sit amet</p>
+            <a href="#" class="btn btn-lg btn-primary">Call to action</a>
+            <div class="meta">Some metadata goes here</div>
+          </div>
+            ]]>
+        </snip>
+
+
+ <snip name="Navbar">
+          <![CDATA[
+          <div class="navbar navbar-inverse">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-inverse-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#">Brand</a>
+                </div>
+                <div class="navbar-collapse collapse navbar-inverse-collapse">
+                  <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Active</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li class="divider"></li>
+                        <li class="dropdown-header">Dropdown header</li>
+                        <li><a href="#">Separated link</a></li>
+                        <li><a href="#">One more separated link</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <form class="navbar-form navbar-left">
+                    <input type="text" class="form-control col-lg-8" placeholder="Search">
+                  </form>
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Link</a></li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            ]]>
+        </snip>
+
+        <snip name="Features">
+          <![CDATA[
+          <div class="row">
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
+       </div>
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
+        </div>
+      </div>
+            ]]>
+        </snip>
+
+
+	<snip name="Container with 2 cols">
+          <![CDATA[
+          <div class="container">
+          	<div class="col-md-9">
+          	</div><!--col-md-9-->
+          	<div class="col-md-3">          		
+          	</div><!--col-md-3-->
+          </div><!--container-->
+            ]]>
+        </snip>
+
+
+      </node>
+    </node>    
+  </html>
+
+  
+</snippets>
